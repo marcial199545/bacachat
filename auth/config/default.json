@@ -1,0 +1,13 @@
+{
+    "DB_CONFIG": {
+        "useNewUrlParser": true,
+        "useCreateIndex": true,
+        "useFindAndModify": false,
+        "useUnifiedTopology": true
+    },
+    "DB_URI": "mongodb://localhost:27017/auth",
+    "JWT_CONFIG": {
+        "expiresIn": 360000
+    },
+    "JWT_SECRET": "secretfortoken"
+}
